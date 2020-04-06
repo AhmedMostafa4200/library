@@ -1,0 +1,50 @@
+body{
+    background-image: url(library.jpg);
+}
+
+.booksForm, .inputsForm{
+    margin: auto;
+}
+
+.inputsForm, .booksContainer{
+    /* color: red; */
+    display: none;
+}
+
+.tableHead{
+    color: tomato;
+}
+
+.booksContainer{
+    color: wheat;
+    font-weight: bold;
+}
+
+.booksLabel{
+    color: wheat;
+}
+
+.saveBtn, .deletetBtn{
+    padding: 0;
+    /* font-size: 5px; */
+}
+
+.nextBtn{
+    border-radius: 25%;
+    color: wheat;
+}
+
+.contentAlignCenter{
+    color: wheat;
+    background-color: rgba(100, 60, 35, .5);
+    /* opacity: .5; */
+    text-align: center;
+}
+.inputsFormLabel{
+    color: tomato;
+    font-weight: bold;
+}
+
+.savecancel{
+    display: none;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <form class="booksForm form-col col-md-6 text-center mt-4" onsubmit="">
+        <label class="booksLabel" for="booksNumber">Number of Books</label>
+        <input type="number" required min="1" max="10" class="form-control" id="booksNumber" autofocus placeholder="Enter Number of Books">
+        <input type="submit" class="submitBtn btn btn-primary mt-2" value="Submit">
+    </form>
+
+
+    <form id="inputsFormID" class="inputsForm form-col col-md-6 text-center" action="">
+        <label for="inputsFormID" class="inputsFormLabel mt-2"></label>
+
+        <div>
+            <input type="text" required class="authorName form-control mt-2" placeholder="Author name">
+            <input type="email" required class="authorMail form-control mt-2" placeholder="E-mail">
+        </div>
+        <input type="text" required class="bookName form-control mt-2" placeholder="Book name">
+        <input type="number" min="5" required class="bookPrice form-control mt-2" placeholder="Book price">
+        <input type="date" required class="bookDate form-control mt-2" placeholder="Date">
+
+        <input type="submit" class="nextBtn btn-dark mt-2" value="Next"> 
+    </form>
+
+
+    <div class="booksContainer">
+        <div class="tableHead row col-md-12 text-center">
+            <div class="row col-md-4">
+                <div class="mt-2 col-md-6">Author name</div>
+                <div class="mt-2 col-md-6">E-mail</div>
+            </div>
+            <div class="mt-2 col-md-2">Book name</div>
+            <div class="mt-2 col-md-2">Book price</div>
+            <div class="mt-2 col-md-2">Date</div>
+            <!-- <button class="saveBtn btn btn-success col-md-1" onclick="">Save</button>
+            <button class="deletetBtn btn btn-danger col-md-1" onclick="">Delete</button> -->
+        </div>
+    </div>
+
+
+    <!-- <div class="inputsForm row col-md-12 text-center">
+        <div class="row col-md-4">
+            <input type="text" class="form-control mt-2 col-md-6" placeholder="Full name">
+            <input type="email" class="form-control mt-2 col-md-6" placeholder="E-mail">
+        </div>
+        <input type="text" class="form-control mt-2 col-md-2" placeholder="Book name">
+        <input type="number" class="form-control mt-2 col-md-2" placeholder="Book price">
+        <input type="date" class="form-control mt-2 col-md-2" placeholder="Date">
+        <button class="saveBtn btn btn-success col-md-1" onclick="">Save</button>
+        <button class="deletetBtn btn btn-danger col-md-1" onclick="">Delete</button>
+    </div> -->
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
